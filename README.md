@@ -2,7 +2,7 @@
 This is a simple Memory Card Game built using HTML, CSS, and JavaScript.
 
 :tv: Game Demo
-A live demo of the game can be found [here]().
+A live demo of the game can be found [here](https://gusillus.github.io/memory_card_game/).
 
 :game_die: Game Rules
 - The game board consists of several pairs of cards, face down.
