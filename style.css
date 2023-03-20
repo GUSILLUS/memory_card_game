@@ -36,6 +36,7 @@ body{
   font-size: 45px;
   color: #BD905B;
   text-align: center;
+  margin-bottom: 5px;
 }
 
 .wrapper{
@@ -137,8 +138,10 @@ body{
 }
 
 .details p {
-  font-size: 18px;
-  height: 17px;
+  width: 120px;
+  text-align: center;
+  font-size: 20px;
+  height: 20px;
   padding-right: 18px;
   border-right: 2px solid black;
 }
@@ -156,7 +159,7 @@ body{
   font-size: 20px;
   color: black;
   border-radius: 4px;
-  padding: 4px 11px;
+  padding: 7px 10px;
   background: #BD905B;
   border: 2px solid #695847;
   transition: 0.3s ease;
@@ -206,9 +209,32 @@ body{
   .card .back-view img{
     max-width: 60px;
   }
+
+  .details{
+    margin-top: 13px;
+    padding: 10px 15px;
+    height: calc(100% / 4 - 25px);
+  }
+
+  .details p{
+    width: 100px;
+    padding-right: 10px;
+  }
+  .details button{
+    font-size: 15px;
+    padding: 4px 7px;
+  }
+
+  .message_img {
+    width: 60px;
+  }
 }
 
 @media screen and (max-width: 530px) {
+  .wrapper{
+    padding: 15px;
+  }
+
   .cards{
     height: 300px;
     width: 300px;
@@ -225,18 +251,20 @@ body{
     padding: 10px 15px;
     height: calc(100% / 4 - 20px);
   }
+
   .details p{
+    width: 90px;
     height: 15px;
-    font-size: 17px;
-    padding-right: 13px;
+    font-size: 15px;
+    padding-right: 5px;
   }
   .details button{
     font-size: 13px;
-    padding: 10px 10px;
+    padding: 7px 7px;
   }
 
   .tile {
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
   }
 
@@ -246,5 +274,9 @@ body{
 
   .message_text {
     font-size: 20px;
+  }
+
+  .message_img {
+    width: 50px;
   }
 }
